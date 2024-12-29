@@ -71,7 +71,7 @@ h1,h2,h3{
 
 
 /*Phone screens*/
-@media(max-width:500px){
+@media(max-width:540px){
     .cartoon_image{
         display: none;
     }
@@ -99,7 +99,7 @@ h1,h2,h3{
 }
 
 /*Tablet and laptop screens*/
-@media(min-width:500px){
+@media(min-width:540px){
     img{
         width: 100%;
     }
