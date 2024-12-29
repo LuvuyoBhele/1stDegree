@@ -1,0 +1,180 @@
+
+/* General Design*/
+a{color: white;}
+
+p{
+    font-style: serif;
+    text-wrap: wrap;
+}
+
+li{
+    font-style: serif;
+    font-weight: lighter;
+}
+
+ul{
+    margin-top: 0px;
+    text-wrap: wrap;
+    font-weight: bolder;
+    font-size: small;
+}
+
+
+
+h1,h2,h3{
+    text-align: center;
+}
+
+#slogan{
+    font-weight: bold;
+}
+
+#option_bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #5AADF9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo_section{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 400px;
+    justify-content: center;
+}
+
+.tab{
+    display: inline;
+    text-align: center;
+}
+
+/* contact page*/
+#contact_detail{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    background-color: #5AADF9;
+}
+
+#contact_section{
+    background-color: #5AADF9;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Phone screens*/
+@media(max-width:500px){
+    .cartoon_image{
+        display: none;
+    }
+
+    body{
+        background-color:#5AADF9 ;
+    }
+
+    #full_wash{
+        background-color: white;
+    }
+
+    #home_section{
+        background-color: white;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #car_services{
+        background-color: white;
+    }
+    
+}
+
+/*Tablet and laptop screens*/
+@media(min-width:500px){
+    img{
+        width: 100%;
+    }
+
+    .cartoon_image{
+        display: flex;
+        height : 150px;
+    }
+
+    #car_section{
+        display: flex;
+        flex-direction: row;
+        height: 250px;
+        width:100%;
+        justify-content: space-evenly;
+        background-color: #5AADF9
+    }
+    
+    .car_services_img{
+        display: flex;
+    }
+        
+    #car_services{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #home_section{
+        display: flex;
+        flex-direction: row;
+        flex-basis: 50%;
+        height: 250px;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: #5AADF9
+    
+    }
+    
+    #home_services_img{
+        display: flex;
+        width:50%;
+        order: 1;
+    }
+    
+    #home_services{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        /*background-color: #5AADF9*/
+    }
+
+    #wash_options{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    
+    #home_services_list{
+        padding-left: 30%;
+    }
+}
+
+
+
+
+
+/*for screens larger than the mobile phone we must give the inline look*/
+/*for smaller screens give a block look*/
+
+
+
+
+
+
+
+
+
