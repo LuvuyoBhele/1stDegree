@@ -1,3 +1,4 @@
+
 /* this is for mobile  phones*/
 .logo_section{
     background-color: white;
@@ -188,7 +189,7 @@ body {
 
     }
 
-    .QW_list, .full_wash, .first_degree_wash{
+    .quick_wash, .full_wash, .first_degree_wash{
         width:70vw;
     }
 
@@ -206,15 +207,18 @@ body {
         align-items: center;
 
     }
+
+    .QW_list, .FW_list, .FDW_list{
+        align-self: start;
+    }
     .quick_wash, .full_wash, .first_degree_wash{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    /*height: 200px;*/
         margin: 10px;
         border: 2px solid rgba(0, 0, 0, 0.15);
         box-shadow: 2px 2px #5B6A78;
-        padding: 5px 13px 5px 5px;
+        padding: 5px;
         background-image: linear-gradient(#ADD5FA 0%, transparent);
     }
 
@@ -286,7 +290,7 @@ body {
         border: 5px solid #5aacf967;
         border-radius: 10px;
         text-align: justify;
-        margin:2em 2em;
+        margin:1em 1em 1em 1em;
         display: flex;
         flex-direction: column;
         justify-items: center;
@@ -308,6 +312,9 @@ body {
         z-index: 1;
         padding-left: 0.5em;
     }
+
+
+    .QW_list{}
 
 }
 
@@ -548,15 +555,12 @@ looking for*/
         justify-content: center;
         justify-items: center;
     }
-
-
+}
 
 @media screen and (min-width:993px) and (max-width:1200px){
     .all_services{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    
+        grid-template-columns: 1fr 1fr 1fr;    
     }
 
     .quick_wash, .full_wash, .first_degree_wash{
@@ -622,6 +626,19 @@ looking for*/
         display: flex;
         flex-direction: column;
         justify-items: center;
+        justify-content: center;
+    }
+
+    #car_add_ons h2{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    #car_add_ons ul{
+        display: block;
+        align-self: center;
     }
 
     .addon-list .service::after{
