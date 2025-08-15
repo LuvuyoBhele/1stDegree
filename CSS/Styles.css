@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* this is for mobile  phones*/
 .logo_section{
@@ -658,4 +659,650 @@ looking for*/
         padding-left: 0.5em;
     }
 
+=======
+/* this is for mobile  phones*/
+.logo_section{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo_section img{
+    height:50vh ;
+}
+
+.service_title{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.hero_statement{
+    margin-bottom: 5px;
+    
+}
+
+.tagline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#car_add_ons{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+.car_products{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem
+}
+
+
+li{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+.drpBtn{
+    background-color: #5aadf9;
+    opacity: 0.5;
+}
+
+.tagline_2 {
+    background-color: #5aadf9;
+    box-shadow: 0px  2px 5px black; /*find a nice out line colour*/
+    }
+
+.drpBtn img {
+    width: 20px;
+    height: 20px;
+}
+
+.menuItem a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu, .menuItem {
+        background-color: #5aadf9;
+        width:auto;
+    }
+
+.menuItem {
+    border: none; /* Optional: removes default border */
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-LightItalic.ttf') format('truetype');
+    font-weight: light;
+    font-style: italic;
+}
+
+#companyName {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-style: italic; /* Will use Ubuntu-BoldItalic.ttf */
+}
+
+.statement_1, .statement_2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: light;
+    font-style: italic;
+    text-align: center;
+}
+
+.tagline_2 h2{
+    color:white;
+    font-weight: 200;
+    font-family: 'Ubuntu', sans-serif;
+    text-wrap: wrap;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('../Assets/bubbles.jpg');
+    background-size: contain;      /* Makes image appear smaller */
+    background-repeat: no-repeat;     /* Prevents tiling */
+    background-position: bottom center; /* Lowers the image to the bottom */
+}
+
+
+.hero_statement, .service_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+#navigationBar{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 1000;   
+    }
+.price p{
+        font-size: 2em;
+        font-weight: 650;
+        color: #5B6A78;
+        text-align: center;
+        position: relative;
+        right: 25%;
+    }
+.menu{
+    border: 2px solid black;
+    display: none;
+}
+
+.pricelist{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin: 1em 0;
+        background: #5aacf983;
+    }
+.house_cleaning_container .section{
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+@media (max-width:578px) {
+    .all_services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .all_services img{
+        height:200px;
+        width:40vw;
+    }
+
+    .price{
+        display: flex;
+        flex-direction:row ;
+        justify-content: center;
+
+    }
+
+    .QW_list, .full_wash, .first_degree_wash{
+        width:70vw;
+    }
+
+   /* .price p{
+        font-size: 2em;
+        font-weight: 650;
+        color: #5B6A78;
+    }*/
+
+    
+
+    .product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .quick_wash, .full_wash, .first_degree_wash{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    /*height: 200px;*/
+        margin: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 2px 2px #5B6A78;
+        padding: 5px 13px 5px 5px;
+        background-image: linear-gradient(#ADD5FA 0%, transparent);
+    }
+
+    .car_products{
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+
+    .subtitle{
+        margin: 0%;
+        padding: 0%;
+        border: 0%;
+    }
+
+    .subtitle{
+        padding: 0%;
+    }
+    
+    #car_add_ons{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: justify;
+        padding-left: 1.5em;
+    }
+
+   
+    .house_cleaning{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top:0%;
+        margin-bottom:0.5em;
+        margin-left: 2em;
+    }
+
+    .BC_policy{
+        margin: 1em 1em 1em 1em;
+        border-style: double;
+        border-color: red;
+        border-width: 2px;
+        border-radius: 5%;
+        padding: 1em;
+        background-image: linear-gradient(rgba(236, 39, 39, 0.368) 100%, transparent);
+        
+    }
+
+    .addon-list {
+        list-style: none;
+        padding: 0;
+        max-width: 70vw;
+    }
+
+    .addon-list li {
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+    }
+
+    .addon-list .service {
+        flex: 1;
+        position: relative;
+        padding-right: 3em;
+    }
+
+     #car_add_ons{
+        border: 5px solid #5aacf967;
+        border-radius: 10px;
+        text-align: justify;
+        margin:2em 2em;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .addon-list .service::after{
+        content: "";
+        display: block;
+        border-bottom: 1px dotted rgb(0, 0, 0);
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0.3em;
+        z-index: 0;
+    }
+    .addon-list .price {
+        background:  #5B6A78;
+        position: relative;
+        z-index: 1;
+        padding-left: 0.5em;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:769px){
+    .all_services{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: auto;
+        width: 90vw;
+        margin: 10px;
+    }
+
+    .quick_wash, .full_wash, .first_degree_wash{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    /*height: 200px;*/
+        margin: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 2px 2px #5B6A78;
+        padding: 5px 13px 5px 5px;
+        background-image: linear-gradient(#ADD5FA 0%, transparent);
+    }
+    
+    
+    .product{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
+    .quick_wash_img, .full_wash_img,.first_degree_wash_img{
+        order: 1;
+        grid-row: span 2;
+    }
+    .FDW_list, .FW_list, .QW_list{
+        order: 2;
+    }
+
+    .productTitle{
+        order: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .all_services img{
+        height:200px;
+        width:40vw;
+    }
+
+    .house_cleaning{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top:0%;
+        margin-bottom:4em;
+        margin-left: 2em;
+    }
+
+    .BC_policy{
+        margin: 1em 1em 1em 1em;
+        border-style: double;
+        border-color: red;
+        border-width: 2px;
+        border-radius: 5%;
+        padding: 1em;
+        background-image: linear-gradient(rgba(236, 39, 39, 0.368) 100%, transparent);
+        
+    }
+
+    .addon-list {
+        list-style: none;
+        padding: 0em 1em 0 1em;
+        max-width: 100vw;
+        
+    }
+
+    
+
+    .addon-list li {
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+    }
+
+    .addon-list .service {
+        flex: 1;
+        position: relative;
+        padding-right: 1em;
+        
+    }
+
+    #car_add_ons{
+        border: 5px solid #5aacf967;
+        border-radius: 10px;
+        text-align: justify;
+        margin:2em 2em;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    #car_add_ons h2{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    .addon-list .service::after{
+        content: "";
+        display: block;
+        border-bottom: 1px dotted rgb(0, 0, 0);
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0.3em;
+        z-index: 0;
+    }
+    .addon-list .price {
+        background:  #5B6A78;
+        position: relative;
+        z-index: 1;
+        padding-left: 0.5em;
+    }
+
+
+
+
+}
+
+/*I'm adding the card div to center everything, you'll need to adjust 
+everything calling the div above that to get back to the styling you 
+looking for*/
+
+@media screen and (min-width:770px) /*and (max-width:993px)*/{
+    .all_services{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    
+    }
+
+    .quick_wash, .full_wash, .first_degree_wash{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    /*height: 200px;*/
+        margin: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 2px 2px #5B6A78;
+        padding: 5px 13px 5px 5px;
+        background-image: linear-gradient(#ADD5FA 0%, transparent);
+    }
+    
+    
+
+    
+    .all_services img{
+        height:200px;
+        width:20vw;
+    }
+
+    .house_cleaning{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top:0%;
+        margin-bottom:4em;
+        margin-left: 2em;
+    }
+
+    .BC_policy_container{
+        margin: 1em 1em 1em 1em;
+        border-style: double;
+        border-color: red;
+        border-width: 2px;
+        border-radius: 5%;
+        background-image: linear-gradient(rgba(236, 39, 39, 0.368) 100%, transparent);
+        padding: 1em;
+        
+    }
+
+    .addon-list {
+        list-style: none;
+        padding: 0;
+        max-width: 70vw;
+    }
+
+    .addon-list li {
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+    }
+
+    .addon-list .service {
+        flex: 1;
+        position: relative;
+        padding-right: 3em;
+    }
+
+    #car_add_ons{
+        border: 5px solid #5aacf967;
+        border-radius: 10px;
+        text-align: justify;
+        margin:2em 2em;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .addon-list .service::after{
+        content: "";
+        display: block;
+        border-bottom: 1px dotted rgb(0, 0, 0);
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0.3em;
+        z-index: 0;
+    }
+    .addon-list .price {
+        background:  #5B6A78;
+        position: relative;
+        z-index: 1;
+        padding-left: 0.5em;
+    }
+    .house_cleaning_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 10px;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
+
+@media screen and (min-width:993px) and (max-width:1200px){
+    .all_services{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    
+    }
+
+    .quick_wash, .full_wash, .first_degree_wash{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    /*height: 200px;*/
+        margin: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 2px 2px #5B6A78;
+        padding: 5px 13px 5px 5px;
+        background-image: linear-gradient(#ADD5FA 0%, transparent);
+    }
+    
+    .all_services img{
+        height:200px;
+        width:20vw;
+    }
+
+    .house_cleaning{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top:0%;
+        margin-bottom:4em;
+        margin-left: 2em;
+    }
+
+    .BC_policy_container{
+        margin: 1em 1em 1em 1em;
+        border-style: double;
+        border-color: red;
+        border-width: 2px;
+        border-radius: 5%;
+        padding: 1em;
+        background-image: linear-gradient(rgba(236, 39, 39, 0.368) 100%, transparent);;
+    }
+
+    .addon-list {
+        list-style: none;
+        padding: 0;
+        max-width: 70vw;
+    }
+
+    .addon-list li {
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+    }
+
+    .addon-list .service {
+        flex: 1;
+        position: relative;
+        padding-right: 3em;
+    }
+
+    #car_add_ons{
+        border: 5px solid #5aacf967;
+        border-radius: 10px;
+        text-align: justify;
+        margin:2em 2em;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .addon-list .service::after{
+        content: "";
+        display: block;
+        border-bottom: 1px dotted rgb(0, 0, 0);
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0.3em;
+        z-index: 0;
+    }
+    .addon-list .price {
+        background:  #5B6A78;
+        position: relative;
+        z-index: 1;
+        padding-left: 0.5em;
+    }
+
+}
+>>>>>>> 1e5d0fe9514df83a8f8b1a9b9653deb19fcafaae
 }
