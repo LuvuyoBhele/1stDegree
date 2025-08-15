@@ -1,180 +1,149 @@
-
-/* General Design*/
-a{color: white;}
-
-p{
-    font-style: serif;
-    text-wrap: wrap;
-}
-
-li{
-    font-style: serif;
-    font-weight: lighter;
-}
-
-ul{
-    margin-top: 0px;
-    text-wrap: wrap;
-    font-weight: bolder;
-    font-size: small;
-}
-
-
-
-h1,h2,h3{
-    text-align: center;
-}
-
-#slogan{
-    font-weight: bold;
-}
-
-#option_bar{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #5AADF9;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+/* this is for mobile  phones*/
 
 .logo_section{
     display: flex;
+    height: 70vh;
     justify-content: center;
 }
 
-.logo{
-    width: 400px;
-    justify-content: center;
-}
-
-.tab{
-    display: inline;
-    text-align: center;
-}
-
-/* contact page*/
-#contact_detail{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    background-color: #5AADF9;
-}
-
-#contact_section{
-    background-color: #5AADF9;
+.hero_statement{
     display: flex;
     flex-direction: column;
-}
-
-
-/*Phone screens*/
-@media  only screen and (max-width:540px){
-    .cartoon_image{
-        display: none;
-    }
-
-    body{
-        background-color:#5AADF9 ;
-    }
-
-    #full_wash{
-        background-color: white;
-    }
-
-    #home_section{
-        background-color: white;
-    }
-
-    img{
-        width: 100%;
-    }
-
-    #car_services{
-        background-color: white;
-    }
+    justify-content: center;
+    background-color:#5AADF9
     
 }
 
-/*Tablet and laptop screens*/
-@media  only screen and (min-width:540px){
-    img{
-        width: 100%;
-    }
+.statement_1{
+    font-size: 2rem;
+    text-align: center;
+    background-color:#5AADF9;
+    font-weight: bolder;
+}
 
-    .cartoon_image{
-        display: flex;
-        height : 150px;
-    }
+.statement_2{
+    font-size: 1rem;
+    text-align: center;
+    background-color:#5AADF9;
+    color: white;
+}
 
-    #car_section{
-        display: flex;
-        flex-direction: row;
-        height: 250px;
-        width:100%;
-        justify-content: space-evenly;
-        background-color: #5AADF9
-    }
-    
-    .car_services_img{
-        display: flex;
-    }
-        
-    #car_services{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #home_section{
-        display: flex;
-        flex-direction: row;
-        flex-basis: 50%;
-        height: 250px;
-        width: 100%;
-        justify-content: space-evenly;
-        background-color: #5AADF9
-    
-    }
-    
-    #home_services_img{
-        display: flex;
-        width:50%;
-        order: 1;
-    }
-    
-    #home_services{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        /*background-color: #5AADF9*/
-    }
 
-    #wash_options{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    
-    }
-    
-    #home_services_list{
-        padding-left: 30%;
-    }
+
+.all_services{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.quick_wash, .first_degree_wash{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 2rem;
+    flex-wrap: nowrap;
+    overflow-wrap: normal;
 }
 
 
 
 
+.full_wash{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2rem;
+    
 
-/*for screens larger than the mobile phone we must give the inline look*/
-/*for smaller screens give a block look*/
+}
 
 
+.car_service_title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.car_service_list{
+    list-style-type: none;
+    display: inline;
+}
+.car_products{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #5AADF9;
+}
+
+.quick_wash_image_1{
+    float: right;
+}
+.car_service_title{
+    font-size: 2rem;
+}
+
+.all_services{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    row-gap: 3rem;
+}
+
+.quick_wash{
+    order:0;
+    height: 40vh;
+}
+
+.quick_wash_img{
+    order: 1;
+    height: 40vh;
+}
+
+.full_wash_img{
+    order:2;
+    height: 40vh;
+}
+.full_wash{
+    order:3;
+    height: 40vh;
+}
+
+.first_degree_wash{
+    order:4;
+    height: 40vh;
+}
+
+.first_degree_wash_img{
+    order:5;
+    height: 40vh;
+    width:100%;
+
+}
 
 
+.quick_wash_image, .full_wash_image, .first_degree_wash_image{
+    height:100%;
+}
+
+.quick_wash_image, .first_degree_wash_image{
+padding-left: 5rem;
+}
+ 
+.full_wash_img{
+    padding-right: 5rem;
+}
+
+.car_service_list{
+    padding-left: 3rem;
+    background-image: url();
+}
+.full_wash_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 40vh;
+}
 
 
-
-
-
+ 
