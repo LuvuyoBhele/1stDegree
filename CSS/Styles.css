@@ -401,6 +401,34 @@ everything calling the div above that to get back to the styling you
 looking for*/
 
 @media screen and (min-width:770px) /*and (max-width:993px)*/{
+    .drpBtn, .dropDownBtn{
+        display: none;
+    }
+
+    .menu, .menuItem{
+        background-color: #5aadf9;
+        width:10em;
+        border: none;
+        opacity:80%;
+        height:40px;
+    }
+
+    
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+
+    #navigationBar{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        z-index: 1000;
+        justify-content: space-around;
+        width: 100vw;
+    }
+    
+    
     .all_services{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
